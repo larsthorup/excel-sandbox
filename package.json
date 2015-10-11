@@ -1,0 +1,21 @@
+{
+  "name": "excel-sandbox",
+  "version": "0.1.0",
+  "description": "excel sandbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsthorup/excel-sandbox.git"
+  },
+  "author": "Lars Thorup <lars@zealake.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larsthorup/excel-sandbox/issues"
+  },
+  "homepage": "https://github.com/larsthorup/excel-sandbox#readme",
+  "dependencies": {
+    "xlsx": "^0.8.0"
+  },
+  "scripts": {
+    "test": "xlsx \"data/testfil til Lars.xlsx\" --json --sheet Sheet1 && xlsx \"data/testfil til Lars.xlsx\" --json --sheet Sheet2"
+  }
+}
